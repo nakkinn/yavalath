@@ -1,4 +1,4 @@
-let s=70,point,pre;
+let s,point,pre;
 let board=new Array(81);
 let peer,room,stone;
 
@@ -29,6 +29,7 @@ function setup(){
         });
     });
 
+    s=height/12;
     reset();
 }
 
